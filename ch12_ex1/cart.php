@@ -1,4 +1,5 @@
 <?php
+$session_id = session_id();
 // Add an item to the cart
 function add_item($key, $quantity) {
     global $products;
